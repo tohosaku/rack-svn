@@ -1,6 +1,6 @@
 # Rack::Svn
 
-TODO: Write a gem description
+rack application (not a middleware) serves contents in a svn repository directly ( like Rack::File)
 
 ## Installation
 
@@ -18,7 +18,9 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+config.ru
+
+    run Rack::Svn::Directory
 
 ## Contributing
 
